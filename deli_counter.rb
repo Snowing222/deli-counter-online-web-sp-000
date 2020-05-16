@@ -1,4 +1,4 @@
-# Write your code here.
+
 def line(queue)
   if queue.length>0
     new_array=[]
@@ -6,7 +6,8 @@ def line(queue)
       new_array.push("#{(queue.index(x)+1).to_s}. #{x}")
 
     end
-    puts "The line is currently: #{new_array}"
+
+    puts "The line is currently: #{new_array.join(" ")}"
 
   else
     puts "The line is currently empty."
