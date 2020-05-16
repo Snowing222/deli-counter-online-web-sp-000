@@ -22,6 +22,9 @@ def take_a_number(queue,new_customer)
 end
 
 def now_serving(queue)
-  puts "Currently serving #{quene[0]}."
+  if queue
+    puts "Currently serving #{queue[0]}."
+  else
+    puts "There is nobody waiting to be served!
 
 end
