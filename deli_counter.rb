@@ -25,6 +25,7 @@ def now_serving(queue)
   if queue
     puts "Currently serving #{queue[0]}."
   else
-    puts "There is nobody waiting to be served!
+    puts "There is nobody waiting to be served!"
+  end
 
 end
